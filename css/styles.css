@@ -337,6 +337,15 @@ body {
   font-size: 16px; }
 
 /* line 9, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+body,
+html {
+  height: 100%; }
+
+/* line 14, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+main {
+  height: 100%; }
+
+/* line 18, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 nav {
   background: #333;
   display: flex;
@@ -346,22 +355,36 @@ nav {
   align-items: center;
   top: 0;
   width: 100%; }
-  /* line 19, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 28, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   nav #logo {
     height: 50px;
     margin-left: 1em;
     width: 50px; }
-  /* line 25, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 34, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   nav ul {
     margin: 0; }
-    /* line 28, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+    /* line 37, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
     nav ul li {
       color: white;
       display: inline-block;
       margin: 0 1em;
       text-decoration: none; }
 
-/* line 37, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 46, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+.hero {
+  background: #6c2a07;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0; }
+  /* line 54, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  .hero div {
+    background: orange;
+    height: 100px;
+    width: 100px; }
+
+/* line 61, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 .filler {
   background: #888;
   height: 300px;

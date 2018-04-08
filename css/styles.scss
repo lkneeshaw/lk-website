@@ -6,6 +6,15 @@ body {
     font-size: 16px;
 }
 
+body,
+html {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
 nav {
     background: #333;
     display: flex;
@@ -31,6 +40,21 @@ nav {
             margin: 0 1em;
             text-decoration: none;
         }
+    }
+}
+
+.hero {
+    background: #6c2a07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    
+    div {
+        background: orange;
+        height: 100px;
+        width: 100px;
     }
 }
 
