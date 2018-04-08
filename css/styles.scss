@@ -2,7 +2,6 @@
 @import "normalize";
 
 body {
-    background: cornflowerblue;
     font-size: 16px;
 }
 
@@ -45,7 +44,9 @@ nav {
 
 .hero {
     background: #6c2a07;
+    color: orange;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -59,8 +60,10 @@ nav {
 }
 
 .filler {
-    background: #888;
-    height: 300px;
-    margin: 2em auto;
-    width: 800px;
+    height: 500px;
+    margin: auto;
+    
+    &:nth-child(odd) {
+        background: #f9f9f9;
+    }
 }

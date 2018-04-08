@@ -333,19 +333,18 @@ template {
 
 /* line 4, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 body {
-  background: cornflowerblue;
   font-size: 16px; }
 
-/* line 9, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 8, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 body,
 html {
   height: 100%; }
 
-/* line 14, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 13, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 main {
   height: 100%; }
 
-/* line 18, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 17, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 nav {
   background: #333;
   display: flex;
@@ -355,40 +354,43 @@ nav {
   align-items: center;
   top: 0;
   width: 100%; }
-  /* line 28, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 27, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   nav #logo {
     height: 50px;
     margin-left: 1em;
     width: 50px; }
-  /* line 34, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 33, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   nav ul {
     margin: 0; }
-    /* line 37, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+    /* line 36, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
     nav ul li {
       color: white;
       display: inline-block;
       margin: 0 1em;
       text-decoration: none; }
 
-/* line 46, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 45, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 .hero {
   background: #6c2a07;
+  color: orange;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   padding: 0; }
-  /* line 54, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 55, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   .hero div {
     background: orange;
     height: 100px;
     width: 100px; }
 
-/* line 61, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 62, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 .filler {
-  background: #888;
-  height: 300px;
-  margin: 2em auto;
-  width: 800px; }
+  height: 500px;
+  margin: auto; }
+  /* line 66, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  .filler:nth-child(odd) {
+    background: #f9f9f9; }
 
 /*# sourceMappingURL=styles.css.map */
