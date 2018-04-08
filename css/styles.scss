@@ -1,6 +1,42 @@
-/* Stylehsheet */
-@import "semantic";
+/* Stylesheet */
+@import "normalize";
 
 body {
     background: cornflowerblue;
+    font-size: 16px;
+}
+
+nav {
+    background: #333;
+    display: flex;
+    padding: .5em;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    
+    #logo {
+        height: 50px;
+        margin-left: 1em;
+        width: 50px;
+    }
+    
+    ul {
+        margin: 0;
+        
+        li {
+            color: white;
+            display: inline-block;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+    }
+}
+
+.filler {
+    background: #888;
+    height: 300px;
+    margin: 2em auto;
+    width: 800px;
 }
