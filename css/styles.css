@@ -387,9 +387,19 @@ nav {
 
 /* line 62, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 .filler {
-  height: 500px;
-  margin: auto; }
+  margin: auto;
+  padding: 4em; }
   /* line 66, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  .filler .content-wrap {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px; }
+    /* line 73, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+    .filler .content-wrap img {
+      margin-right: 2em; }
+  /* line 78, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   .filler:nth-child(odd) {
     background: #f9f9f9; }
 
