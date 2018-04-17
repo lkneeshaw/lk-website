@@ -388,7 +388,7 @@ nav {
 /* line 62, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
 .filler {
   margin: auto;
-  padding: 4em; }
+  padding: 4em 0; }
   /* line 66, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   .filler .content-wrap {
     margin: auto;
@@ -402,5 +402,25 @@ nav {
   /* line 78, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
   .filler:nth-child(odd) {
     background: #f9f9f9; }
+
+/* line 85, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+.intro {
+  text-align: center;
+  width: 900px; }
+
+/* line 90, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+.article-wrap {
+  margin: 4em auto;
+  max-width: 900px; }
+  /* line 94, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  .article-wrap .placehold-it {
+    background: #999;
+    height: 400px; }
+
+/* line 100, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+.full-width {
+  background: #999;
+  height: 600px;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

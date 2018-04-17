@@ -36,6 +36,13 @@
 		"oAP": "\/build\/build.zip",
 		"oF": 0
 		},
+	"\/case-study.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/build\/case-study.html",
+		"oF": 0
+		},
 	"\/config.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -301,7 +308,7 @@
 	"displayValue": "lk-website",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 545287032
+	"lastBuiltDate": 545442759
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

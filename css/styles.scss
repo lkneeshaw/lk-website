@@ -61,7 +61,7 @@ nav {
 
 .filler {
     margin: auto;
-    padding: 4em;
+    padding: 4em 0;
     
     .content-wrap {
         margin: auto;
@@ -78,4 +78,27 @@ nav {
     &:nth-child(odd) {
         background: #f9f9f9;
     }
+}
+
+//CASE STUDY STYLES
+
+.intro {
+    text-align: center;
+    width: 900px;
+}
+
+.article-wrap {
+    margin: 4em auto;
+    max-width: 900px;
+    
+    .placehold-it {
+        background: #999;
+        height: 400px;
+    }
+}
+
+.full-width {
+    background: #999;
+    height: 600px;
+    width: 100%;
 }
