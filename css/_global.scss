@@ -78,7 +78,7 @@ nav {
 
 .filler {
     margin: auto;
-    padding: 4em 0;
+    padding: 4em;
     
     .content-wrap {
         margin: auto;
@@ -105,12 +105,17 @@ nav {
 
 .intro {
     text-align: center;
-    width: 900px;
+    max-width: 900px;
 }
 
 .article-wrap {
-    margin: 4em auto;
-    max-width: 900px;
+    margin: auto;
+    padding: 4em;
+    
+    article {
+        margin: auto;
+        max-width: 900px;
+    }
     
     .placehold-it {
         background: #999;

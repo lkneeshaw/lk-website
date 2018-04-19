@@ -400,7 +400,7 @@ nav {
 /* line 79, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .filler {
   margin: auto;
-  padding: 4em 0; }
+  padding: 4em; }
   /* line 83, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   .filler .content-wrap {
     margin: auto;
@@ -418,18 +418,22 @@ nav {
 /* line 106, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .intro {
   text-align: center;
-  width: 900px; }
+  max-width: 900px; }
 
 /* line 111, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .article-wrap {
-  margin: 4em auto;
-  max-width: 900px; }
+  margin: auto;
+  padding: 4em; }
   /* line 115, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+  .article-wrap article {
+    margin: auto;
+    max-width: 900px; }
+  /* line 120, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   .article-wrap .placehold-it {
     background: #999;
     height: 400px; }
 
-/* line 121, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+/* line 126, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .full-width {
   background: #999;
   height: 600px;
@@ -468,14 +472,15 @@ h4 {
 a,
 a:visited {
   color: #ff8e42;
-  font-weight: 600; }
+  font-weight: 600;
+  transition: all .2s ease-out; }
 
-/* line 38, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+/* line 39, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
 a:hover,
 a:focus {
   color: #c85027; }
 
-/* line 45, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+/* line 46, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
 button {
   background: #ff8e42;
   border: none;
@@ -483,12 +488,38 @@ button {
   font-weight: 600;
   font-size: 14px;
   padding: .65em .7em .6em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all .2s ease-out; }
 
-/* line 55, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+/* line 57, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
 button:hover,
 button:focus,
 button:active {
   background: #c85027; }
+
+/********** Tablet **********/
+@media screen and (max-width: 768px) {
+  /* line 4, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+  .filler .content-wrap {
+    flex-flow: row wrap; }
+    /* line 7, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+    .filler .content-wrap img {
+      margin-right: 0; }
+    /* line 11, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+    .filler .content-wrap .project-summary {
+      text-align: center; } }
+
+/********** Mobile **********/
+@media screen and (max-width: 480px) {
+  /* line 20, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+  .filler {
+    padding: 2em 1em; }
+    /* line 24, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+    .filler .content-wrap img {
+      width: 100%;
+      max-width: 300px; }
+  /* line 31, /Users/laurakneeshaw/Desktop/lk-website/css/_media-queries.scss */
+  .article-wrap {
+    padding: 2em 1em; } }
 
 /*# sourceMappingURL=styles.css.map */
