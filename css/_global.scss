@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$primary: #ff8e42;
+$secondary: #c85027;
+$main-grey: #404040;
+$dark-blue: #527bbd;
+$light-blue: #8caedc;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: $main-grey;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+nav {
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 1.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    #logo {
+        height: 50px;
+        margin-left: 1em;
+        width: 50px;
+    }
+    
+    ul {
+        margin: 0;
+        
+        li {
+            color: white;
+            display: inline-block;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        
+        a {
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.hero {
+    background: #481b03;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    
+    div {
+        background: darkorange;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.filler {
+    margin: auto;
+    padding: 4em 0;
+    
+    .content-wrap {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 900px;
+        
+        img {
+            margin-right: 2em;
+        }
+    }
+    
+//    &:nth-child(odd) {
+//        background: #f9f9f9;
+//    }
+    
+    &:not(last-child) {
+        border-bottom: 2px solid #d0d0d0;
+    }
+}
+
+//CASE STUDY STYLES
+
+.intro {
+    text-align: center;
+    width: 900px;
+}
+
+.article-wrap {
+    margin: 4em auto;
+    max-width: 900px;
+    
+    .placehold-it {
+        background: #999;
+        height: 400px;
+    }
+}
+
+.full-width {
+    background: #999;
+    height: 600px;
+    width: 100%;
+}

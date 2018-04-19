@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 /* line 11, /Users/laurakneeshaw/Desktop/lk-website/css/_normalize.scss */
 html {
   line-height: 1.15;
@@ -331,96 +332,163 @@ template {
 [hidden] {
   display: none; }
 
-/* line 4, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
-body {
-  font-size: 16px; }
+/* line 9, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+* {
+  box-sizing: border-box; }
 
-/* line 8, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 13, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+body {
+  color: #404040;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 19, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 body,
 html {
   height: 100%; }
 
-/* line 13, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 24, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 main {
   height: 100%; }
 
-/* line 17, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 28, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 nav {
-  background: #333;
+  background: #222;
   display: flex;
-  padding: .5em;
-  position: fixed;
   justify-content: space-between;
   align-items: center;
+  padding: .5em 1.5em;
+  position: fixed;
   top: 0;
   width: 100%; }
-  /* line 27, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 38, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   nav #logo {
     height: 50px;
     margin-left: 1em;
     width: 50px; }
-  /* line 33, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 44, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   nav ul {
     margin: 0; }
-    /* line 36, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+    /* line 47, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
     nav ul li {
       color: white;
       display: inline-block;
       margin: 0 1em;
       text-decoration: none; }
+    /* line 54, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+    nav ul a {
+      font-size: 14px;
+      text-decoration: none;
+      text-transform: uppercase; }
 
-/* line 45, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 62, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .hero {
-  background: #6c2a07;
-  color: orange;
+  background: #481b03;
+  color: #fff;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   padding: 0; }
-  /* line 55, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 72, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   .hero div {
-    background: orange;
+    background: darkorange;
     height: 100px;
     width: 100px; }
 
-/* line 62, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 79, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .filler {
   margin: auto;
   padding: 4em 0; }
-  /* line 66, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 83, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   .filler .content-wrap {
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 900px; }
-    /* line 73, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+    /* line 90, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
     .filler .content-wrap img {
       margin-right: 2em; }
-  /* line 78, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
-  .filler:nth-child(odd) {
-    background: #f9f9f9; }
+  /* line 99, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
+  .filler:not(last-child) {
+    border-bottom: 2px solid #d0d0d0; }
 
-/* line 85, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 106, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .intro {
   text-align: center;
   width: 900px; }
 
-/* line 90, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 111, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .article-wrap {
   margin: 4em auto;
   max-width: 900px; }
-  /* line 94, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+  /* line 115, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
   .article-wrap .placehold-it {
     background: #999;
     height: 400px; }
 
-/* line 100, /Users/laurakneeshaw/Desktop/lk-website/css/styles.scss */
+/* line 121, /Users/laurakneeshaw/Desktop/lk-website/css/_global.scss */
 .full-width {
   background: #999;
   height: 600px;
   width: 100%; }
+
+/* line 3, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+p {
+  line-height: 1.5;
+  margin-bottom: 1.5em; }
+
+/* line 8, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+h1 {
+  color: #ff8e42;
+  font-size: 2.2em;
+  font-weight: 600;
+  margin: 1em 0; }
+
+/* line 15, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+h2 {
+  color: #ff8e42;
+  font-size: 2em;
+  font-weight: 600;
+  margin: .5em 0; }
+
+/* line 22, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+h3 {
+  color: #ff8e42;
+  font-size: 1.7em; }
+
+/* line 27, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+h4 {
+  color: #ff8e42;
+  font-size: 1.5em; }
+
+/* line 32, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+a,
+a:visited {
+  color: #ff8e42;
+  font-weight: 600; }
+
+/* line 38, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+a:hover,
+a:focus {
+  color: #c85027; }
+
+/* line 45, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+button {
+  background: #ff8e42;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: .65em .7em .6em;
+  text-transform: uppercase; }
+
+/* line 55, /Users/laurakneeshaw/Desktop/lk-website/css/_typography.scss */
+button:hover,
+button:focus,
+button:active {
+  background: #c85027; }
 
 /*# sourceMappingURL=styles.css.map */
